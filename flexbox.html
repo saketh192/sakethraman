@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:20px;
+        padding:0px 20px 30px 0px;
+        line-height:1.4;
+    }
+    .flex-container{
+        display:flex;
+       border:2px solid slateblue;
+       /* height:500px; */
+       
+       width:100%;
+       /* flex-wrap:wrap; */
+       align-content:center;
+       -ms-flex-align: center;
+    }
+    .flex-item{
+        width: 175px;
+        /* height:175px; */
+        background-color:lightskyblue;
+        border:2px solid darkblue;
+        text-align:center;
+        font-size:2em;
+        font-weight:bold;
+        line-height:1.4;
+        color:white;
+    }
+    #flex-item-1{
+        background-color:lightblue;
+        flex-shrink:2;
+        align-self:stretch;
+
+
+    }
+    #flex-item-2{
+        background-color: lightcoral;
+        flex-shrink:3;
+       
+    }
+    #flex-item-3{
+        background-color:lightseagreen;
+     
+    }
+    #flex-item-4{
+        background-color:lightsalmon;
+    }
+    #flex-item-5{
+        background-color:lightpink;
+    }
+    #flex-item-6{
+        background-color:crimson;
+    }
+</style>
+<body>
+    <div class="flex-container">
+        <div class="flex-item" id="flex-item-1">1</div>
+        <div class="flex-item" id="flex-item-2">2</div>
+        <div class="flex-item" id="flex-item-3">3</div>
+        <div class="flex-item" id="flex-item-4">4</div>
+        <div class="flex-item" id="flex-item-5">5</div>
+        <div class="flex-item" id="flex-item-6">6</div>
+
+    </div>
+</body>
+</html>
